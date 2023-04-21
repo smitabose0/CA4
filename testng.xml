@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/smitabose/IdeaProjects/CA4/src/test/java/org/example/WebDriverScript.java">
+        <classes>
+            <class name="org.example.WebDriverScript">
+                <methods>
+                    <include name="dropdown"/>
+                    <include name="checkBox"/>
+                    <include name="radioButton"/>
+                    <include name="selectedAndDisabledButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
